@@ -1,10 +1,7 @@
 package com.atria.day7functionalinterface;
+@FunctionalInterface
 
-public class GreetInterface {
+public interface GreetInterface{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	public String greet();
 }
