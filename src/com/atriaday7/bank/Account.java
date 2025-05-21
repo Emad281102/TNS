@@ -1,48 +1,61 @@
-package com.atriaday7;
+package com.atriaday7.bank;
 
 public class Account {
-		private int accNo;
-		private String Name;
-		private double Balance;
-		private Bank bank;
-//		public Account(int accNo,String Name,double balance,Bank bank) {
-//			super();
-//			
-//		}
-		public Account(int accNo, String name, double balance, Bank bank) {
-			super();
-			this.accNo = accNo;
-			Name = name;
-			Balance = balance;
-			this.bank = bank;
-		}
-		public int getAccNo() {
-			return accNo;
-		}
-		public void setAccNo(int accNo) {
-			this.accNo = accNo;
-		}
-		public String getName() {
-			return Name;
-		}
-		public void setName(String name) {
-			Name = name;
-		}
-		public double getBalance() {
-			return Balance;
-		}
-		public void setBalance(double balance) {
-			Balance = balance;
-		}
-		public Bank getBank() {
-			return bank;
-		}
-		public void setBank(Bank bank) {
-			this.bank = bank;
-		}
-		@Override
-		public String toString() {
-			return "Account [accNo=" + accNo + ", Name=" + Name + ", Balance=" + Balance + ", bank=" + bank + "]";
+	 private int accNo;
+	 private String name;
+	 private double balance;
+	 private Bank bank;
+	 
+	 public Account(int accNo, String name, double balance, Bank bank) {
+	     this.accNo = accNo;
+	     this.name = name;
+	     this.balance = balance;
+	     this.bank = bank;
+	 }
+
+	public int getAccNo() {
+		return accNo;
+	}
+
+	public void setAccNo(int accNo) {
+		this.accNo = accNo;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+this.name = name;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public Bank getBank() {
+		return bank;
+	}
+
+	public void setBank(Bank bank) {
+		this.bank = bank;
+	}
+	public void deposit(double amount)
+	{
+		bank.deposit(this, amount);//from bank interface
+	}
+	public void withdraw(double amount)
+	{
+		bank.withdraw(this, amount);//from bank interface
+	}
+@Override
+	public String toString() {
+		return "Account [accNo=" + accNo + ", name=" + name + ", balance=" + balance + ", bank=" + bank + "]";
+			
 		}
 		
 		

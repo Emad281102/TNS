@@ -1,4 +1,4 @@
-package com.atria.day7;
+package com.atria.day7.shape;
 
 public class Square extends Shape{
 		private float side;

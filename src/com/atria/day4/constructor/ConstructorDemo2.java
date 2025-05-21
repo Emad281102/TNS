@@ -1,4 +1,4 @@
-package com.atria.day4;
+package com.atria.day4.constructor;
 
 public class ConstructorDemo2 {
 

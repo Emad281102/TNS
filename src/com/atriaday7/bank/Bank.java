@@ -1,4 +1,4 @@
-package com.atriaday7;
+package com.atriaday7.bank;
 
 public interface Bank {
 	double MIN_BALANCE=1000;

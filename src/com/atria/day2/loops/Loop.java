@@ -1,4 +1,4 @@
-package com.atria.day2;
+package com.atria.day2.loops;
 
 public class Loop {
 

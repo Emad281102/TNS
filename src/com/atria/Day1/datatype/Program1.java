@@ -1,4 +1,4 @@
-package com.atria.Day1;
+package com.atria.Day1.datatype;
 
 public class Program1 {
 

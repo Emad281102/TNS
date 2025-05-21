@@ -1,4 +1,4 @@
-package com.atria.day5;
+package com.atria.day5.multilevel;
 
 public class Student extends Person{
 	private String clas;

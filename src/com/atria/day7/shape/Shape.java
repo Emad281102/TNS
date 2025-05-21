@@ -1,4 +1,4 @@
-package com.atria.day7;
+package com.atria.day7.shape;
 
 public abstract class Shape {
 	protected float area;

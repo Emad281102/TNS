@@ -1,4 +1,4 @@
-package com.atria.day3;
+package com.atria.day3.encapsulation;
 
 public class Encapsulation {
 
